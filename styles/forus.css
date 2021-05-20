@@ -1,0 +1,110 @@
+.for-us {
+  margin-bottom: 100px;
+}
+
+.for-us__top {
+  padding-right: 535px;
+}
+
+.section-title {
+  margin: 0;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 59px;
+}
+
+.for-us__i {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url("../img/i.svg") no-repeat;
+}
+
+.for-us__description {
+  margin-top: 20px;
+  margin-bottom: 43px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.for-us__bottom {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.for-us__news {
+  width: 870px;
+  padding-top: 445px;
+  display: flex;
+  background-image: url("../img/benefit1x.jpg");
+  background-size: cover;
+}
+
+.news-info {
+  width: 100%;
+  align-self: flex-end;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 65px 40px 54px;
+  z-index: 5;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.news-text {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+
+.news-btn {
+  align-self: center;
+  margin-left: 55px;
+  padding: 20px 36px;
+  border: 3px solid var(--color-orange);
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--color-white);
+  transition: background-color 0.3s ease-in-out;
+}
+
+.news-btn:hover, .news-btn:active, .news-btn:focus{
+  background-color: var(--color-orange);
+}
+
+.for-us__list {
+  width: 49%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.benefit-item {
+  display: flex;
+  justify-content: start;
+  border: 1px solid #CACACA;
+  padding: 35px 110px 50px 60px;
+}
+
+.benefit-item__img{
+  min-width: 178px;
+  margin-right: 58px;
+}
+
+.benefit-item__content {
+  margin-top: 30px;
+}
+
+.benefit-item__title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.benefit-item__text {
+  margin-top: 5px;
+  margin-bottom: 18px;
+  line-height: 32px;
+}

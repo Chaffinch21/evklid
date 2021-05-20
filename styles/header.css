@@ -1,0 +1,138 @@
+.header {
+  height: 100px;
+  box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.1);
+}
+
+.header-container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.header__logo {
+  display: block;
+  height: 100%;
+}
+
+.header-logo:hover {
+  cursor: pointer;
+}
+
+.header-logo:active, .header-logo:focus {
+  outline: 1px solid var(--color-orange);
+}
+
+.header-logo__picture {
+  height: 100%;
+  display: flex;
+}
+
+.header-logo__img {
+  display: block;
+  align-self: center;
+}
+
+.header-bar {
+  height: 100%;
+  display: flex;
+  justify-content: end;
+  padding-top: 10px;
+}
+
+.header__menu {
+  height: 100%;
+}
+
+.header__list {
+  height: 100%;
+  display: flex;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+}
+
+.header__item {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.header-item__link {
+  position: relative;
+  height: 30%;
+}
+
+.header__item:not(:last-child) {
+  margin-right: 85px;
+}
+
+.header__item:last-child {
+  margin-right: 73px;
+}
+
+.header-item__link:after {
+  display: block;
+  content: "";
+  background-color: var(--color-orange);
+  height: 2px;
+  width: 4%;
+  left: 50%;
+  position: absolute;
+  top: 99%;
+  transform:  translateX(-50%);
+  opacity: 0;
+  transition: transform .3s ease-in-out, opasity .3s ease-in-out; 
+}
+
+.header-item__link:hover:after {
+  transform: scaleX(29);
+  opacity: 1;
+}
+
+.header-item__link:focus{
+  color: var(--color-orange);
+  outline: 1px solid var(--color-orange);
+}
+
+.header-item__link:active {
+  color: var(--color-orange);
+  outline: 1px solid transparent;
+}
+
+.header__search {
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+  padding-right: 10px;
+}
+
+.header-search__field {
+  display: none;
+  width: 100%;
+  height: 100%;
+  border: none;
+  background-color: transparent;
+}
+
+.header-search__submit {
+  display: flex;
+  align-self: center;
+  width: 25px;
+  height: 25px;
+  background: url('../img/search.svg') no-repeat;
+  transition: background 0.3s ease-in-out;
+}
+
+.header-search__submit:hover {
+  background: url('../img/search-orang.svg') no-repeat;
+}
+
+.header-search__submit:focus {
+  outline: 1px solid var(--color-orange);
+}
+
+.header-search__submit:active {
+  outline: 1px solid #f1f1f1;
+}

@@ -1,0 +1,92 @@
+.worktab {
+  margin-bottom: 100px;
+}
+
+.worktab-title {
+  margin-bottom: 48px;
+}
+
+.worktab-step__buttons {
+  margin-bottom: 45px;
+  font-size: 18px;
+  line-height: 22px;  
+}
+
+.step__item {
+  display: inline-block;
+  transition: color 0.2s ease-in-out;
+}
+
+.step__item:not(:last-child) {
+  margin-right: 70px;
+}
+
+.step__item.active .step-item__btn{
+  color: var(--color-orange);
+}
+
+.step-item__btn {
+  padding: 0;
+}
+
+.step__item__btn:hover, .step__item__btn:active  {
+  color: var(--color-orange);
+  cursor: pointer;
+}
+
+.step__item__btn:focus {
+  outline: 1px solid var(--color-orange);
+}
+
+.worktab-description__list {
+  margin-left: 3px;
+}
+
+.description-item {
+  background: url('../img/step1-big.jpg') no-repeat;
+  background-position: bottom right;
+}
+
+.description-item__title {
+  margin-bottom: 0px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.description-item__text {
+  width: 43%;
+  margin-top: 5px;
+  margin-bottom: 60px;
+  line-height: 32px;
+}
+
+.description-item__btn {
+  padding: 19px 37px;
+  transition: background 0.3s ease-in-out, color 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.btn-orange {
+  border: none;
+  margin-right: 27px;
+  background-color: var(--color-orange);
+  color: var(--color-white);
+  font-weight: 700;
+}
+
+.btn-transparent {
+  border: 1px solid #333333;
+}
+
+.btn-transparent:hover, .btn-transparent:active {
+  background: #333333;
+  color: var(--color-white);
+}
+
+.btn-orange:hover, .btn-orange:active {
+  opacity: 60%;
+}
+
+.description-item__btn:focus {
+  outline: 1px solid var(--color-orange);
+}
