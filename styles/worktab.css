@@ -18,7 +18,7 @@
 }
 
 .step__item:not(:last-child) {
-  margin-right: 70px;
+  margin-right: 80px;
 }
 
 .step__item.active .step-item__btn{
@@ -38,17 +38,14 @@
   outline: 1px solid var(--color-orange);
 }
 
-.worktab-description__list {
-  margin-left: 3px;
-}
-
 .description-item {
   background: url('../img/step1-big.jpg') no-repeat;
-  background-position: bottom right;
+  background-size: 49%;
+  background-position: center right;
 }
 
 .description-item__title {
-  margin-bottom: 0px;
+  margin-bottom: 7px;
   font-weight: 700;
   font-size: 24px;
   line-height: 32px;
@@ -57,7 +54,7 @@
 .description-item__text {
   width: 43%;
   margin-top: 5px;
-  margin-bottom: 60px;
+  margin-bottom: 52px;
   line-height: 32px;
 }
 

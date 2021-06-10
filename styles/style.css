@@ -3,16 +3,21 @@
   --color-white: #ffffff;
   --text-color: #333333;
   --footer-text: #CACACA;
+  --gap: 32px;
+}
+
+html {
+  box-sizing: border-box; 
 }
 
 *,
 *::before,
 *::after {
-  box-sizing: border-box; 
+  box-sizing: inherit; 
 }
 
 body {
-  max-width: 1920;
+  min-width: 320px;
   margin: 0;
   background-color: #FFFFFF;; 
   font-family: 'Montserrat', 'Arial', sans-serif; 
@@ -85,3 +90,5 @@ svg path {
 .main {
   margin-bottom: 20px;
 }
+
+

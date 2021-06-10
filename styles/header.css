@@ -37,7 +37,6 @@
   height: 100%;
   display: flex;
   justify-content: end;
-  padding-top: 10px;
 }
 
 .header__menu {
@@ -47,6 +46,8 @@
 .header__list {
   height: 100%;
   display: flex;
+  margin-right: 85px;
+  padding-top: 10px;
   font-weight: 600;
   font-size: 18px;
   line-height: 22px;
@@ -66,10 +67,6 @@
 
 .header__item:not(:last-child) {
   margin-right: 85px;
-}
-
-.header__item:last-child {
-  margin-right: 73px;
 }
 
 .header-item__link:after {
@@ -105,7 +102,6 @@
   display: flex;
   align-self: center;
   justify-content: space-between;
-  padding-right: 10px;
 }
 
 .header-search__field {

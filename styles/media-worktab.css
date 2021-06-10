@@ -1,4 +1,170 @@
-@media (max-width: 1780px) {
+@media (max-width: 1024px) {
+  .worktab {
+    margin-bottom: 58px;
+  }
+  
+  .worktab-container {
+    padding: 0 45px;
+  }
+
+  .worktab-step__buttons {
+    padding-left: 5px;
+  }
+
+  .step__item:not(:last-child) {
+    margin-right: 85px;
+  }
+
+  .worktab-description__list {
+    padding-left: 5px;
+  }
+
+  .description-item {
+    background: url('../img/step1-1024.jpg') no-repeat;
+    background-position: bottom right;
+  }
+
+  .description-item__title {
+    margin-bottom: 0;
+  }
+
+  .description-item__text {
+    width: 47%;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 940px) {
+  .worktab-container {
+		padding: 0 45px;
+  }
+
+  .worktab-title {
+    margin-bottom: 48px;
+  }
+
+  .worktab-step__buttons {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5px;
+  }
+
+  .step-item {
+    padding: 0;
+  }
+
+  .step__item:not(:last-child) {
+    margin-right: 0;
+  }
+
+  .description-item {
+    background: url('../img/step1-768.jpg') no-repeat;
+    background-position: top left;
+  }
+
+  .description-item__title {
+    padding-top: 320px;
+  }
+
+  .description-item__text {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 475px) {
+  .description-item__title {
+    padding-top: 300px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+  }
+
+  .description-item__text {
+    margin-bottom: 20px;
+    margin-top: 0;
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .description-item__btn {
+    padding: 13px 28px;
+    font-size: 12px;
+  }
+
+  .btn-orange {
+    margin-right: 10px;
+  }
+
+  .btn-transparent {
+    padding: 13px 30px;
+  }
+}
+
+@media (max-width: 375px) {
+  .worktab {
+    margin-bottom: 60px;
+  }
+
+  .worktab-container {
+		padding: 0 15px;
+  }
+
+  .worktab-title {
+    margin-bottom: 24px;
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .worktab-step__buttons {
+    padding: 0;
+    margin-bottom: 15px;
+    font-size: 14px;
+    line-height: 17px;  
+  }
+
+  .worktab-description__list {
+    margin: 0;
+    padding: 0;
+  }
+
+  .description-item {
+    background: url('../img/step1-320.jpg') no-repeat;
+  }
+
+  .description-item__title {
+    margin: 0;
+    margin-top: 22px;
+  }
+
+  .description-item__title {
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding-top: 175px;
+  }
+
+  .description-item__text {
+    margin-bottom: 13px;
+    margin-top: 0;
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .description-item__btn {
+    padding: 13px 43px;
+    font-size: 12px;
+  }
+
+  .btn-orange {
+    margin-right: 10px;
+  }
+
+  .btn-transparent {
+    padding: 13px 30px;
+  }
+} 
+
+/* @media (max-width: 1780px) {
   .worktab {
     margin-bottom: 58px;
   }
@@ -117,4 +283,4 @@
   .btn-transparent {
     padding: 13px 30px;
   }
-}
+} */

@@ -1,10 +1,338 @@
-@media (max-width: 1780px) {
+@media (max-width: 1440px) {
+  .for-us__bottom {
+    flex-direction: column;
+  }
+
+  .for-us__news {
+    width: 100%;
+    margin-bottom: var(--gap);
+    background-size: cover;
+  }
+
+  .for-us__list {
+    width: 100%;
+  }
+
+  .benefit-item:not(:last-child) {
+    margin-bottom: var(--gap);
+  }
+}
+
+@media (max-width: 1024px) {
   .for-us {
     margin-bottom: 60px;
   }
 
   .for-us__container {
-    max-width: 944px;
+    padding: 0 48px;
+  }
+
+  .for-us__top {
+    width: 100%;
+    padding-right: 0px;
+    margin-bottom: 60px;
+  }
+
+  .for-us__title {
+    margin-bottom: 25px;
+  }
+
+  .for-us__bottom {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  .for-us__news {
+    width: 100%;
+    padding-top: 470px;
+    margin-bottom: 50px;
+    background-image: url("../img/benefit1x-1024.jpg");
+  }
+
+  .news-info {
+    padding: 34px 49px 40px 45px;
+  }
+
+  .news-btn{
+    margin-left: 88px;
+  }
+
+  .for-us__list {
+    width: 100%;
+    display: block;
+  }
+
+  .benefit-item {
+    padding: 37px 100px 45px 110px;
+  }
+
+  .benefit-item:not(:last-child) {
+    margin-bottom: 40px;
+  }
+
+  .benefit-item-1 {
+    background-position: 30% 79%;
+  }
+  
+  .benefit-item-2 {
+    background-position: 15% 46%;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .for-us {
+    margin-bottom: 55px;
+  }
+
+  .for-us__container {
+		padding: 0 48px 0 50px;
+  }
+  
+  .for-us__news {
+    padding-top: 480px;
+    margin-bottom: 40px;
+    background-image: url("../img/benefit1x-768.jpg")
+  }
+
+  .news-info {
+    padding: 25px 30px 25px 30px;
+  }
+
+  .news-text {
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .news-btn{
+    margin-left: 48px;
+  }
+
+  .benefit-item {
+    padding: 10px 20px 20px 20px;
+  }
+
+  .benefit-item:not(:last-child) {
+    margin-bottom: 33px;
+  }
+
+  .benefit-item__img{
+    min-width: 118px;
+    margin-right: 39px;
+  }
+
+}
+
+@media (max-width: 700px){
+  .for-us {
+    margin-bottom: 47px;
+  }
+
+  .for-us__container {
+		padding: 0 45px;
+  }
+
+  .for-us__top {
+    margin-bottom: 10px;
+  }
+
+  .for-us__news {
+    padding-top: 58vw;
+    margin-bottom: 50px;
+    display: block;
+    background-repeat:  no-repeat;
+    background-size: contain;
+    background-image: url("../img/320benefit.jpg");
+    background-position: top center;
+  }
+
+  .news-info {
+    display: block;
+    width: 100%;
+    padding: 0;
+    background-color: transparent;
+    color: var(--text-color);
+  }
+
+  .news-text {
+    width: 100%;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: var(--text-color);
+  }
+
+  .news-btn {
+    margin-left: 0;
+    padding: 9px 29px;
+    border: 2px solid var(--color-orange);
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--color-orange);
+  }
+
+  .news-btn:hover, .news-btn:active, .news-btn:focus{
+    background-color: var(--color-orange);
+    color: var(--color-white);
+  }
+
+  .benefit-item {
+    display: block;
+    border: none;
+    padding: 0 15px;
+  }
+
+  .benefit-item:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+  .benefit-item__img{
+    width: 65px;
+    height: 65px;
+    min-width: 20px;
+    margin: 0;
+  }
+
+  .benefit-item__content {
+    margin-top: 0;
+  }
+
+  .benefit-item__title {
+    margin: 0;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  
+  .benefit-item__text {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-size: 14px;
+    line-height: 28px;
+  }
+}
+
+@media (max-width: 475px) {
+  .section-title {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 375px) {
+  .for-us {
+    margin-bottom: 58px;
+  }
+
+  .for-us__container {
+		padding: 0 15px;
+  }
+
+  .for-us__top {
+    margin-bottom: 10px;
+  }
+
+  .for-us__title {
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 20px;
+  }
+
+  .for-us__description {
+    width: 99.5%;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .for-us__news {
+    padding-top: 64vw;
+    margin-bottom: 25px;
+    display: flex;
+    background-repeat:  no-repeat;
+  }
+
+  .news-info {
+    width: 100%;
+    padding: 0;
+    flex-direction: column;
+    background-color: transparent;
+    color: var(--text-color);
+  }
+
+  .news-text {
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: var(--text-color);
+  }
+
+  .news-btn {
+    align-self: flex-start;
+    margin-left: 0;
+    padding: 9px 29px;
+    border: 2px solid var(--color-orange);
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--color-orange);
+  }
+
+  .news-btn:hover, .news-btn:active, .news-btn:focus{
+    background-color: var(--color-orange);
+    color: var(--color-white);
+  }
+
+  .benefit-item {
+    display: block;
+    border: none;
+    padding: 0;
+  }
+
+  .benefit-item:not(:last-child) {
+    margin-bottom: 25px;
+  }
+
+  .benefit-item__img{
+    width: 65px;
+    height: 65px;
+    min-width: 20px;
+    margin: 0;
+  }
+
+  .benefit-item__content {
+    margin-top: 0;
+  }
+
+  .benefit-item__title {
+    width: 95%;
+    margin: 0;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  
+  .benefit-item__text {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-size: 14px;
+    line-height: 28px;
+  }
+}
+
+/* @media (max-width: 1780px) {
+  .for-us {
+    margin-bottom: 60px;
+  }
+
+  .for-us__container {
+    min-width: 944px;
   }
 
   .for-us__top {
@@ -317,4 +645,4 @@
     line-height: 28px;
   }
 }
-
+ */

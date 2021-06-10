@@ -1,5 +1,8 @@
 .hero {
-  margin-bottom: 105px;
+  width: 100%;
+  display: block;
+  margin-bottom: 100px;
+  padding: 0 66px;
 }
 
 .swiper-container {
@@ -9,14 +12,17 @@
 .hero-content {
   position: relative;
   z-index: 20;
-  padding: 105px 800px 90px 88px;
+  padding-top: 100px;
+  padding-bottom: 98px;
+  padding-left: 88px;
+  /*padding: 105px 800px 90px 88px; */
   display: block;
-  width: 100%;
+  width: 70%;
 }
 
 .hero-content__title {
   margin: 0;
-  margin-bottom: 18px;
+  margin-bottom: 22px;
   font-style: normal;
   font-weight: 800;
   font-size: 70.3742px;
@@ -26,8 +32,9 @@
 
 .hero-content__descripton {
   display: block;
+  width: 70%;
   margin: 0;
-  margin-bottom: 97px;
+  margin-bottom: 90px;
   font-weight: 700;
   font-size: 23.4581px;
   line-height: 29px;
@@ -78,6 +85,7 @@
 
 .swiper-pagination{
   display: none;
+  cursor: pointer;
 }
 
 .swiper-pagination-bullet-active {
