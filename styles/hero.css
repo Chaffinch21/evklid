@@ -17,7 +17,7 @@
   padding-left: 88px;
   /*padding: 105px 800px 90px 88px; */
   display: block;
-  width: 70%;
+  width: 60%;
 }
 
 .hero-content__title {
@@ -32,7 +32,7 @@
 
 .hero-content__descripton {
   display: block;
-  width: 70%;
+  width: 90%;
   margin: 0;
   margin-bottom: 90px;
   font-weight: 700;
@@ -84,8 +84,19 @@
 }
 
 .swiper-pagination{
-  display: none;
+  display: block;
+  margin-bottom: 20px;
   cursor: pointer;
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+  width: 15px;
+  height: 15px;
+  
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+  margin: 0 10px;
 }
 
 .swiper-pagination-bullet-active {

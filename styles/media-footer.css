@@ -23,17 +23,16 @@
 
 @media (max-width: 1024px){
   .footer-container {
-    padding: 45px 48px;
+    padding: 50px 48px;
   }
 
   .footer-logo {
-    margin-bottom: 20px;
+    margin-bottom: 22px;
   }
 
   .footer__form {
-    width: 539px;
-    margin-left: 100px;
-    margin-top: 10px;
+    width: 545px;
+    margin-left: 105px;
   }
 
   .footer-form__head {
@@ -80,6 +79,10 @@
 
   .footer__nav {
     display: none;
+  }
+
+  .footer-logo {
+    margin-bottom: 10px;
   }
 
 }
@@ -157,7 +160,7 @@
   }
 
   .footer__social-list {
-    margin-top: auto;
+    margin-top: 10px;
     display: flex;
     justify-content: center;
   }

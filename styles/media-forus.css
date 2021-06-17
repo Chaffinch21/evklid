@@ -20,7 +20,7 @@
 
 @media (max-width: 1024px) {
   .for-us {
-    margin-bottom: 60px;
+    margin-bottom: 85px;
   }
 
   .for-us__container {
@@ -34,7 +34,11 @@
   }
 
   .for-us__title {
-    margin-bottom: 25px;
+    margin-bottom: 10px;
+  }
+
+  .for-us__description {
+    margin-top: 0;
   }
 
   .for-us__bottom {
@@ -49,12 +53,24 @@
   .for-us__news {
     width: 100%;
     padding-top: 470px;
-    margin-bottom: 50px;
+    margin-bottom: 35px;
     background-image: url("../img/benefit1x-1024.jpg");
   }
 
+  .news-text {
+    width: 55%;
+  }
+
   .news-info {
-    padding: 34px 49px 40px 45px;
+    padding: 25px 49px 50px 52px;
+  }
+
+  .benefit-item__img{
+    margin-right: 30px;
+  }
+  
+  .benefit-item__content {
+    margin-top: 0;
   }
 
   .news-btn{
@@ -67,27 +83,27 @@
   }
 
   .benefit-item {
-    padding: 37px 100px 45px 110px;
+    padding: 60px 130px 41px 70px;
+  }
+
+  .benefit-item__img{
+    margin-right: 60px;
   }
 
   .benefit-item:not(:last-child) {
     margin-bottom: 40px;
   }
 
-  .benefit-item-1 {
-    background-position: 30% 79%;
-  }
-  
-  .benefit-item-2 {
-    background-position: 15% 46%;
-  }
-
 }
 
 @media (max-width: 768px) {
 
+  .for-us__title {
+    padding-left: 0;
+  }
+
   .for-us {
-    margin-bottom: 55px;
+    margin-bottom: 80px;
   }
 
   .for-us__container {
@@ -96,25 +112,26 @@
   
   .for-us__news {
     padding-top: 480px;
-    margin-bottom: 40px;
+    margin-bottom: 35px;
     background-image: url("../img/benefit1x-768.jpg")
   }
 
   .news-info {
-    padding: 25px 30px 25px 30px;
+    padding: 10px 40px 30px 40px;
   }
 
   .news-text {
     font-size: 16px;
-    line-height: 30px;
+    line-height: 32px;
+    width: 60%;
   }
 
   .news-btn{
-    margin-left: 48px;
+    margin-left: 0;
   }
 
   .benefit-item {
-    padding: 10px 20px 20px 20px;
+    padding: 22px 20px 15px 40px;
   }
 
   .benefit-item:not(:last-child) {
@@ -123,7 +140,11 @@
 
   .benefit-item__img{
     min-width: 118px;
-    margin-right: 39px;
+    margin-right: 10px;
+  }
+
+  .benefit-item__title {
+    margin-top: 10px;
   }
 
 }
@@ -238,9 +259,11 @@
   }
 
   .for-us__title {
+    margin-bottom: 20px;
+    margin-left: -5px;
     font-size: 24px;
     line-height: 29px;
-    margin-bottom: 20px;
+    
   }
 
   .for-us__description {
@@ -252,7 +275,7 @@
   }
 
   .for-us__news {
-    padding-top: 64vw;
+    padding-top: 65vw;
     margin-bottom: 25px;
     display: flex;
     background-repeat:  no-repeat;
@@ -296,7 +319,7 @@
   }
 
   .benefit-item:not(:last-child) {
-    margin-bottom: 25px;
+    margin-bottom: 23px;
   }
 
   .benefit-item__img{

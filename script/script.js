@@ -4,12 +4,6 @@ window.onload = function() {
   const sliderEl = document.querySelector('.swiper-container-js');
   const questionBtn = document.querySelectorAll('.questions__btn-js');
   const questionItemEl = document.querySelectorAll('.questions__item-js');
-  const mediaTablet = window.matchMedia('(max-width: 768px)');
-  const heroTitleEl = document.querySelector('.hero-content__title');
-
-  if (mediaTablet.matches) {
-    heroTitleEl.innerHTML = 'Проектные решения любой сложности';
-  }
   
 
   let mySwiper = new Swiper (sliderEl, {

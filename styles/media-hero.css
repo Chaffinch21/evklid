@@ -1,6 +1,6 @@
  @media (max-width: 1800px) {
   .hero {
-    margin-bottom: 58px;
+    margin-bottom: 80px;
     padding: 0 15px;
     
   }
@@ -22,22 +22,22 @@
 
   .hero-content {
     padding-top: 160px;
-    padding-bottom: 115px;
-    padding-left: 55px;
+    padding-bottom: 160px;
+    padding-left: 85px;
     /*padding: 105px 800px 90px 88px; */
     display: block;
     width: 90%;
   }
 
   .hero-content__title {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     font-size: 60px;
     line-height: 73px;
   }
 
   .hero-content__descripton {
     width: 90%;
-    margin-bottom: 110px;
+    margin-bottom: 60px;
     font-size: 20px;
     line-height: 24px;
   }
@@ -59,20 +59,6 @@
     background: url("../img/hero3-1024-1x.jpg") no-repeat;
   }
 
-  .swiper-pagination{
-    display: block;
-    margin-bottom: 20px;
-  }
-
-  .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
-    width: 15px;
-    height: 15px;
-    
-  }
-
-  .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet:not(:last-child) {
-    margin: 0 10px;
-  }
 }
 
 @media (max-width: 950px) {
@@ -85,16 +71,24 @@
 @media (max-width: 768px) {
 
   .hero {
-    padding: 0;
+    padding: 0 50px 0 50px;
   }
 
   .hero-content {
-    padding: 190px 0px 115px 50px;
+    padding: 160px 0px 160px 40px;
+  }
+
+  .hero-content__title {
+    margin-bottom: 15px;
+    font-size: 50px;
+    line-height: 61px;
   }
 
   .hero-content__descripton {
-    width: 95%;
-    margin-bottom: 110px;
+    width: 90%;
+    margin-bottom: 60px;
+    font-size: 18px;
+    line-height: 22px;
   }
 
   .swiper-wrapper {
