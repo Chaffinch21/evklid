@@ -1,3 +1,15 @@
+@media (max-width: 1780px) and (min-width: 1541px) {
+  .benefit-item {
+    padding: 55px 20px;
+  }
+}
+
+@media (max-width: 1540px) and (min-width: 1441px) {
+  .benefit-item {
+    padding: 45px 10px;
+  }
+}
+
 @media (max-width: 1440px) {
   .for-us__bottom {
     flex-direction: column;
@@ -163,7 +175,7 @@
   }
 
   .for-us__news {
-    padding-top: 58vw;
+    padding-top: 62vw;
     margin-bottom: 50px;
     display: block;
     background-repeat:  no-repeat;

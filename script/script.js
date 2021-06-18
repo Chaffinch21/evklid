@@ -9,14 +9,16 @@ window.onload = function() {
   let mySwiper = new Swiper (sliderEl, {
     loop: true,
     spaceBetween: 1,
+    slidesPerView: 1.0,
+    centeredSlides: true,
+    effect: 'fade',
     // autoplay: {
     //   delay: 3000,
     // },
 
-    effect: 'fade',
-  fadeEffect: {
-    crossFade: true
-  },
+    fadeEffect: {
+      crossFade: false
+    },
 
     pagination: {
       el: '.swiper-pagination',

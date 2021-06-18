@@ -59,6 +59,15 @@
   background-size: cover;
 }
 
+.swiper-slide {
+  opacity: 0 !important;
+}
+
+.swiper-slide-active {
+  opacity: 1 !important;
+  transition: opacity ease-in-out 0.3s;
+}
+
 .hero-slide__one {
   background: url("../img/hero1-big-1x.jpg") no-repeat;
   background-size: cover;
@@ -85,6 +94,7 @@
 
 .swiper-pagination{
   display: block;
+  z-index: 50;
   margin-bottom: 20px;
   cursor: pointer;
 }

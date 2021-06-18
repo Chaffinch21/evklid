@@ -2,8 +2,12 @@
   .hero {
     margin-bottom: 80px;
     padding: 0 15px;
-    
   }
+
+  .hero-content {
+    width: 80%;
+  }
+
   .hero__slide {
     margin: 0;
     padding: 80px 100px 115px 45px;
