@@ -2,19 +2,26 @@
   width: 100%;
   display: block;
   margin-bottom: 100px;
-  padding: 0 66px;
+  padding: 0 66px 0 76px;
 }
 
 .swiper-container {
   margin: 0 auto;
+  position: relative;
+  width: 100%;
+  min-height: 620px;
+  overflow-y: visible;
+  background-color: #222;
 }
 
 .hero-content {
-  position: relative;
+  position: absolute;
+  left: 80px;
+  top: 100px;
   z-index: 20;
-  padding-top: 100px;
+  /* padding-top: 100px;
   padding-bottom: 98px;
-  padding-left: 88px;
+  padding-left: 88px; */
   /*padding: 105px 800px 90px 88px; */
   display: block;
   width: 60%;
@@ -23,20 +30,19 @@
 .hero-content__title {
   margin: 0;
   margin-bottom: 22px;
-  font-style: normal;
   font-weight: 800;
-  font-size: 70.3742px;
-  line-height: 86px;
+  font-size: 70px;
+  line-height: 85px;
   color: var(--color-white);
 }
 
 .hero-content__descripton {
   display: block;
-  width: 90%;
+  width: 87%;
   margin: 0;
   margin-bottom: 90px;
   font-weight: 700;
-  font-size: 23.4581px;
+  font-size: 24px;
   line-height: 29px;
   color: var(--color-white);
 }
@@ -55,7 +61,7 @@
 .swiper-wrapper {
   position: absolute;
   top: 0;
-  left: 10px;
+  left: 0;
   background-size: cover;
 }
 

@@ -25,8 +25,23 @@
   }
 
   .description-item {
-    background: url('../img/step1-1024.jpg') no-repeat;
-    background-position: bottom right;
+    background-position: top right;
+  }
+
+  .description-item--one {
+    background-image: url('../img/step1-1024.jpg');
+  }
+
+  .description-item--two {
+    background-image: url('../img/step2-1024.jpg');
+  }
+
+  .description-item--tree {
+    background-image: url('../img/step3-1024.jpg');
+  }
+
+  .description-item--four {
+    background-image: url('../img/step4-1024.jpg');
   }
 
   .description-item__title {
@@ -40,7 +55,7 @@
   }
 }
 
-@media (max-width: 940px) {
+@media (max-width: 860px) {
   .worktab-container {
 		padding: 0 45px;
   }
@@ -64,9 +79,25 @@
   }
 
   .description-item {
-    background: url('../img/step1-768.jpg') no-repeat;
     background-position: top left;
+    background-size: contain;
   }
+
+  .description-item--one {
+    background-image: url('../img/step1-768.jpg');
+  } 
+
+  .description-item--two {
+    background-image: url('../img/step2-768.jpg');
+  } 
+
+  .description-item--tree {
+    background-image: url('../img/step3-768.jpg');
+  } 
+
+  .description-item--four {
+    background-image: url('../img/step4-768.jpg');
+  } 
 
   .description-item__title {
     padding-top: 325px;
@@ -78,9 +109,9 @@
   }
 }
 
-@media (max-width: 475px) {
+@media (max-width: 700px) {
   .description-item__title {
-    padding-top: 300px;
+    padding-top: 40vw;
     font-size: 18px;
     font-weight: 500;
     line-height: 32px;
@@ -135,8 +166,21 @@
     padding: 0;
   }
 
-  .description-item {
-    background: url('../img/step1-320.jpg') no-repeat;
+
+  .description-item--one {
+    background-image: url('../img/step1-320.jpg');
+  }
+
+  .description-item--two {
+    background-image: url('../img/step2-320.jpg');
+  }
+
+  .description-item--tree {
+    background-image: url('../img/step3-320.jpg');
+  }
+
+  .description-item--four {
+    background-image: url('../img/step4-320.jpg');
   }
 
   .description-item__title {

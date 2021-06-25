@@ -10,11 +10,17 @@
   border-top: 1px solid #CACACA;
 }
 
+.ui-accordion-header-icon {
+  display: none;
+}
+
 .questions__item {
   width: 100%;
   border-bottom: 1px solid #CACACA;
   margin-top: 38px;
   padding-bottom: 23px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .questions-item__visible {
@@ -78,17 +84,13 @@
   background-color: #D2D2D2;
 }
 
-.questions-item__btn.open {
+.ui-state-active .questions-item__btn {
   transform: rotate(45deg);
   outline: white;
 }
 
-.questions-item__invisible {
-  display: none;
+/* .questions-item__invisible {
   width: 60%;
   line-height: 32px;
-}
-
-.questions-item__invisible.visible {
-  display: block;
-}
+  height: 100% !important;
+} */

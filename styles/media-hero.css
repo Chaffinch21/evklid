@@ -1,16 +1,22 @@
  @media (max-width: 1800px) {
   .hero {
     margin-bottom: 80px;
-    padding: 0 15px;
+    /* padding: 0 15px; */
   }
 
   .hero-content {
     width: 80%;
   }
 
+  .hero-content__title {
+    margin-bottom: 15px;
+    font-size: 60px;
+    line-height: 73px;
+  }
+
   .hero__slide {
     margin: 0;
-    padding: 80px 100px 115px 45px;
+  
   }
 
   .hero__descripton {
@@ -20,23 +26,23 @@
 
 @media (max-width: 1024px) {
   .hero {
-    padding: 0 40px;
-    padding-right: 50px;
+    padding: 0 50px;
+    /* padding-right: 50px; */
+  }
+
+  .swiper-container {
+    min-height: 668px;
   }
 
   .hero-content {
-    padding-top: 160px;
+    left: 78px;
+    top: 160px;
+    /* padding-top: 160px;
     padding-bottom: 160px;
-    padding-left: 85px;
+    padding-left: 85px; */
     /*padding: 105px 800px 90px 88px; */
     display: block;
     width: 90%;
-  }
-
-  .hero-content__title {
-    margin-bottom: 15px;
-    font-size: 60px;
-    line-height: 73px;
   }
 
   .hero-content__descripton {
@@ -67,8 +73,7 @@
 
 @media (max-width: 950px) {
   .hero-content {
-    padding: 60px 0px 115px 50px;
-    width: 98%;
+    width: 90%;
   }
 }
 
@@ -78,8 +83,13 @@
     padding: 0 50px 0 50px;
   }
 
+  .swiper-container {
+    min-height: 662px;
+  }
+
   .hero-content {
-    padding: 160px 0px 160px 40px;
+    left: 40px;
+    /* padding: 160px 0px 160px 40px; */
   }
 
   .hero-content__title {
@@ -93,10 +103,6 @@
     margin-bottom: 60px;
     font-size: 18px;
     line-height: 22px;
-  }
-
-  .swiper-wrapper {
-    left: 0px;
   }
 
   .hero-slide__one {
@@ -116,9 +122,19 @@
   }
 }
 
-@media (max-width: 605px) {
+@media (max-width: 640px) {
   .hero{
+    padding: 0 15px;
     margin-bottom: 40px;
+  }
+
+  .swiper-container {
+    min-height: 468px;
+  }
+
+  .hero-content {
+    top: 60px;
+    left: 20px;
   }
 
   .hero-content__title {
@@ -151,12 +167,16 @@
 
 @media (max-width: 375px) {
    .hero {
-    padding: 0 15px;
     margin-bottom: 60px;
   }
 
+  .swiper-container {
+    min-height: 308px;
+  }
+
   .hero-content {
-    padding: 60px 21px 60px 25px;
+    top: 60px;
+    left: 15px;
   }
 
   .hero-content__title {

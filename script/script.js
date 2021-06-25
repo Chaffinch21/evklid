@@ -4,6 +4,10 @@ window.onload = function() {
   const sliderEl = document.querySelector('.swiper-container-js');
   const questionBtn = document.querySelectorAll('.questions__btn-js');
   const questionItemEl = document.querySelectorAll('.questions__item-js');
+  const stepItemBtnEl = document.querySelectorAll('.step-item__btn');
+  const worktabDescriptionListEl = document.querySelectorAll('.worktab-description__list');
+  const stepItemEl = document.querySelectorAll('.step__item');
+  const burgerEl = document.querySelector('.header-burger-js');
   
 
   let mySwiper = new Swiper (sliderEl, {
@@ -27,12 +31,41 @@ window.onload = function() {
     },
   });
 
-    for(i=0; i<questionItemEl.length; i++){
-      questionItemEl[i].addEventListener('click', function(ev){
-      ev.preventDefault();
-      this.children[1].classList.toggle('visible');
-      this.children[0].children[1].classList.toggle('open');
+  stepItemBtnEl.forEach(function(tabsBtn){
+    tabsBtn.addEventListener('click', function(ev){
+     
+      const path = ev.currentTarget.dataset.path;
+
+      stepItemBtnEl.forEach(function(stepItem){
+        stepItem.classList.remove('active');
       })
-    }
+      ev.currentTarget.classList.add('active');
+
+      worktabDescriptionListEl.forEach(function(tabContent){
+        tabContent.classList.remove('worktab-description-active')
+      });
+
+      document.querySelector(`[data-target="${path}"]`).classList.add('worktab-description-active');
+    })
+  });
+
+  burgerEl.addEventListener('click', function(ev){
+    ev.preventDefault();
+    document.body.classList.toggle('burger-visible');
+    // if ($('.burger-visible').is(':visible')) {
+    //     burgerEl.setAttribute('aria-label', 'Закрыть меню');
+        
+    // } else { 
+    //     burgerEl.setAttribute('aria-label', 'Открыть меню');
+    // }
+});
+
+    // for(i=0; i<questionItemEl.length; i++){
+    //   questionItemEl[i].addEventListener('click', function(ev){
+    //   ev.preventDefault();
+    //   this.children[1].classList.toggle('visible');
+    //   this.children[0].children[1].classList.toggle('open');
+    //   })
+    // }
       
   } 
