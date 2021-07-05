@@ -8,6 +8,7 @@ window.onload = function() {
   const worktabDescriptionListEl = document.querySelectorAll('.worktab-description__list');
   const stepItemEl = document.querySelectorAll('.step__item');
   const burgerEl = document.querySelector('.header-burger-js');
+  const menuEl = document.querySelector('.header__menu');
   
 
   let mySwiper = new Swiper (sliderEl, {
@@ -52,6 +53,19 @@ window.onload = function() {
   burgerEl.addEventListener('click', function(ev){
     ev.preventDefault();
     document.body.classList.toggle('burger-visible');
+    // setTimeout(() => {
+    //   document.body.classList.toggle('burger-visible')
+    // }, 1000);
+    // if (getComputedStyle(menuEl).display == 'block'){
+    //   menuEl.classList.add('hide');
+    //   setTimeout(() => {
+    //        document.body.classList.remove('burger-visible')
+    //      }, 1000);
+    //  }
+    //  else {
+    //    document.body.classList.add('burger-visible');
+    //    menuEl.classList.remove('hide');
+    //  }
     // if ($('.burger-visible').is(':visible')) {
     //     burgerEl.setAttribute('aria-label', 'Закрыть меню');
         

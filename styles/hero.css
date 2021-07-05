@@ -2,27 +2,19 @@
   width: 100%;
   display: block;
   margin-bottom: 100px;
-  padding: 0 66px 0 76px;
+  padding: 0 66px;
 }
 
 .swiper-container {
   margin: 0 auto;
-  position: relative;
-  width: 100%;
-  min-height: 620px;
-  overflow-y: visible;
-  background-color: #222;
 }
 
 .hero-content {
-  position: absolute;
-  left: 80px;
-  top: 100px;
+  position: relative;
   z-index: 20;
-  /* padding-top: 100px;
+  padding-top: 100px;
   padding-bottom: 98px;
-  padding-left: 88px; */
-  /*padding: 105px 800px 90px 88px; */
+  padding-left: 88px;
   display: block;
   width: 60%;
 }
@@ -32,7 +24,7 @@
   margin-bottom: 22px;
   font-weight: 800;
   font-size: 70px;
-  line-height: 85px;
+  line-height: 86px;
   color: var(--color-white);
 }
 
@@ -61,7 +53,8 @@
 .swiper-wrapper {
   position: absolute;
   top: 0;
-  left: 0;
+  left: 10px;
+  background-color: #222;
   background-size: cover;
 }
 
