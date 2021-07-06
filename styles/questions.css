@@ -24,10 +24,20 @@
 }
 
 .questions-item__visible {
+  position: relative;
   width: 100%;
   padding: 0;
   display: flex;
   justify-content: space-between;
+}
+
+.questions-item__visible::before {
+  position: absolute;
+  content: "";
+  top: -25px;
+  left: 0;
+  right: 0;
+  bottom: -25px;
 }
 
 .questions-item__head {
@@ -89,8 +99,7 @@
   outline: white;
 }
 
-/* .questions-item__invisible {
-  width: 60%;
+.questions-item__invisible {
   line-height: 32px;
   height: 100% !important;
-} */
+} 
