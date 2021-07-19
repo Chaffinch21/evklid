@@ -17,27 +17,18 @@
 .questions__item {
   width: 100%;
   border-bottom: 1px solid #CACACA;
-  margin-top: 38px;
-  padding-bottom: 23px;
+  padding: 0;
   display: flex;
   flex-wrap: wrap;
 }
 
 .questions-item__visible {
-  position: relative;
   width: 100%;
-  padding: 0;
+  padding-top: 38px;
+  padding-bottom: 23px;
+  padding-left: 0px;
   display: flex;
   justify-content: space-between;
-}
-
-.questions-item__visible::before {
-  position: absolute;
-  content: "";
-  top: -25px;
-  left: 0;
-  right: 0;
-  bottom: -25px;
 }
 
 .questions-item__head {

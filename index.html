@@ -30,12 +30,9 @@
   <link rel="stylesheet" href="styles/media-footer.css">
   <link rel="stylesheet" href="styles/open-menu.css">
   <script src="script/swiper.min.js" defer></script>
+  <script src="https://code.jquery.com/jquery-1.12.4.js" defer></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" defer></script>
   <script src="script/script.js" defer></script>
-  <script>
-    $( function() {
-      $( "#accordion" ).accordion();
-    } );
-    </script>
   
 </head>
 <body>
@@ -254,8 +251,8 @@
           Часто задаваемые вопросы
         </h2>
 
-        <ul id="accordion" class="list-reset questions__list">
-          <li  class="questions__item questions-item questions__item-js">
+        <ul class="list-reset questions__list">
+          <li  class="accordion questions__item questions-item questions__item-js">
               <button type="button" class="questions-item__visible btn">
                 <span class="questions-item__head">Из чего формируется конечная стоимость проекта?</span> <span class ="btn questions-item__btn questions__btn-js"></span>
               </button>
@@ -281,7 +278,7 @@
             </div>
           </li>
 
-          <li class="questions__item questions-item questions__item-js">
+          <li class="accordion questions__item questions-item questions__item-js">
             <button type="button" class="questions-item__visible btn">
               <span class="questions-item__head">У меня есть свой проект. Сможем ли мы его доработать&nbsp;/ реализовать?</span> <span class ="btn questions-item__btn questions__btn-js"></span>
             </button>
@@ -307,7 +304,7 @@
             </div>
           </li>
 
-          <li class="questions__item questions-item questions__item-js">
+          <li class="accordion questions__item questions-item questions__item-js">
             <button type="button" class="questions-item__visible btn">
               <span class="questions-item__head">Я выбираю между разными компаниями. В&nbsp;чём&nbsp;ваше отличие?</span> <span class ="btn questions-item__btn questions__btn-js"></span>
             </button>
@@ -333,7 +330,7 @@
             </div>
           </li>
 
-          <li class="questions__item questions-item questions__item-js">
+          <li class="accordion questions__item questions-item questions__item-js">
             <button type="button" class="questions-item__visible btn">
               <span class="questions-item__head">Могу ли я делегировать вам работу / согласование с подрядчиком&nbsp;/ организацией?</span> <span class ="btn questions-item__btn questions__btn-js"></span>
             </button>
@@ -359,7 +356,7 @@
             </div>
           </li>
 
-          <li class="questions__item questions-item questions__item-js">
+          <li class="accordion questions__item questions-item questions__item-js">
             <button type="button" class="questions-item__visible btn">
               <span class="questions-item__head">Могу ли я вернуть деньги на&nbsp;каком-либо из этапов работ?</span> <span class ="btn questions-item__btn questions__btn-js"></span>
             </button>

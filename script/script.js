@@ -82,5 +82,12 @@ window.onload = function() {
     //   })
     // }
       
-  
+    $( function() {
+      $( ".accordion" ).accordion({
+        active: false,
+        collapsible: true,
+        // header: "button",
+        heightStyle: "content"
+      });
+    })
   } 
