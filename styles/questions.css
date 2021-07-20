@@ -55,6 +55,7 @@
   border: none;
   border-radius: 25px;
   background-color: #ECECEC;
+  transition: background 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
 .questions-item__btn::after {
@@ -66,7 +67,6 @@
   width: 30px;
   height: 2px;
   background: #666666;
-  transition: background 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
 .questions-item__btn::before {
@@ -78,7 +78,6 @@
   width: 2px;
   height: 30px;
   background: #666666;
-  transition: background 0.5s ease-in-out, transform 0.5s ease-in-out;
 }
 
 .questions-item__btn:hover {
@@ -92,5 +91,4 @@
 
 .questions-item__invisible {
   line-height: 32px;
-  height: 100% !important;
 } 
