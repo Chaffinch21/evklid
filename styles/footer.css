@@ -132,29 +132,31 @@ svg path {
 }
 
 .footer-form__submit-btn:focus {
-  outline: 1px solid black;
+  outline: 1px solid white;
 }
 
 .footer-form__submit-consent {
   display: flex;
+  position: relative;
+  user-select: none;
   align-self: center;
   cursor: pointer;
 }
 
-.footer-form__submit-consent input {
- display: none;
-  align-self: center;
+.footer-form__submit-checkbox {
+  position: absolute;
+  opacity: 0;
 }
 
-.footer-form__submit-consent input:checked + .footer-form__submit-text::after {
+.footer-form__submit-checkbox:checked + .footer-form__submit-text::after {
   opacity: 1;
 }
 
 .footer-form__submit-text {
-  display: inline-block;
   position: relative;
   width: 100%;
   padding-left: 20px;
+  border: 1px solid transparent;
 }
 
 .footer-form__submit-text::before {
@@ -178,6 +180,11 @@ svg path {
   background-repeat: no-repeat;
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
+}
+
+.footer-form__submit-checkbox:focus + .footer-form__submit-text {
+  border-color: white;
+  outline: red;
 }
 
 .footer-text {

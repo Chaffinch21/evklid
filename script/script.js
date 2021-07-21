@@ -53,6 +53,13 @@ window.onload = function() {
   burgerEl.addEventListener('click', function(ev){
     ev.preventDefault();
     document.body.classList.toggle('burger-visible');
+    if (document.body.classList.contains('burger-visible')) {
+      burgerEl.setAttribute('aria-label', 'Закрыть меню');
+      menuEl.setAttribute('aria-hidden', 'false');
+  } else { 
+      burgerEl.setAttribute('aria-label', 'Открыть меню');
+      menuEl.setAttribute('aria-hidden', 'true');
+  }
     // setTimeout(() => {
     //   document.body.classList.toggle('burger-visible')
     // }, 1000);
@@ -90,4 +97,6 @@ window.onload = function() {
         heightStyle: "content"
       });
     })
+
+  
   } 
