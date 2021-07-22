@@ -67,11 +67,11 @@
   } */
 
   .burger-visible .header__menu {
-   
+    visibility: visible;
     left: 0;
 
     /* animation: showLeft 1s; */
-    transition: left 0.7s ease-in-out;
+    transition: left 0.7s ease-in-out, visibility 0.7s ease-in-out;
   }
 
  
